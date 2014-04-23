@@ -14,8 +14,9 @@ Oletame et git on sul mingi ime läbi seadistatud, siis edasi peale veebis forki
 
 Edasi tee seal mis meeldib. Ja kui saab hea, siis läed repo kataloogi ning ütled:
 
-  git add fail mida_mudisid_või_lisasid
-  git commit -m "mingi ilus lühikirjeldus mida head sa tegid"
+  git add fail mida-mudisid-või-muutsid
+
+  git commit -m "mingi ilus lühikokkuvõte" 
 
 Kui kõik läks hästi siis on sul nüüd giti veebis uus seis, koos asjakohaste märgetega.
 
@@ -28,7 +29,9 @@ Weebis ei paista olema (head?) moodust seda sünkida...
 Siis lähed oma giti projektikataloogi ja ütled järgnevad maagilised sõnad:
 
   git remote add upstream git@github.com:4nd3r/linux.ee.git
+
   git pull upstream master
+
   git push
 
 ja sinu projekt veebis peaks olema jälle identne algupärase projektiga - kuni seda vahepeal jälle ei muudeta.
