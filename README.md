@@ -17,7 +17,7 @@ git clone git@github.com:SINUNIMI/linux.ee.git
 Edasi tee seal mis meeldib. Ja kui saab hea, siis läed repo kataloogi ning ütled:
 
 ```
-git add fail mida-mudisid-või-muutsid
+git add fail mille-lisasid-või-muutsid
 git commit -m "mingi ilus lühikokkuvõte" 
 ```
 
